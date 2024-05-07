@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  header nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  #bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+  }
+  
+  #projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 100px; /* Adjust to make space for header */
+  }
+  
+  .project-card {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    opacity: 0.8; /* Setting opacity to make cards opaque */
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .project-card img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .project-card .content {
+    padding: 20px;
+  }
+  
+  .project-card h2 {
+    margin-top: 0;
+  }
+  
+  .project-card p {
+    margin-bottom: 0;
+  }
+  
+  #about {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+  }
+  
+  #about h2 {
+    text-align: center;
+  }
+  
