@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
   // Sample projects data
   const projects = [
     { 
-      title: "Project 1",
+      title: "Project.1",
       description: "A simple weather app that makes use of the free weather API to display the weather information making use of location data.",
       imageUrl: "https://via.placeholder.com/300",
       projectUrl: "https://github.com/RobotNinja15/SimpleWeatherApp"
