@@ -5,9 +5,9 @@ document.addEventListener("DOMContentLoaded", function() {
   const projects = [
     { 
       title: "Project 1",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      description: "A simple weather app that makes use of the free weather API to display the weather information making use of location data.",
       imageUrl: "https://via.placeholder.com/300",
-      projectUrl: "#"
+      projectUrl: "https://github.com/RobotNinja15/SimpleWeatherApp"
     },
     { 
       title: "Project 2",
