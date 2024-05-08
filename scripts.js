@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     { 
       title: "Weather App",
       description: "A simple weather app that makes use of the free weather API to display the weather information making use of location data.",
-      imageUrl: "https://via.placeholder.com/300",
+      imageUrl: "weatherAppPic.jpg",
       projectUrl: "https://github.com/RobotNinja15/SimpleWeatherApp"
     },
     { 
